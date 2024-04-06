@@ -207,6 +207,7 @@ class IChar:
             if force_move:
                 keyboard.send(Config().char["force_move"])
             else:
+                print("clicking left button")
                 mouse.click(button="left")
 
     def walk(self, pos_monitor: tuple[float, float], force_tp: bool = False, force_move: bool = False):
