@@ -8,12 +8,13 @@ dependencies:
   - leptonica
   - tesseract=5.1.0
   - pkg-config
+  - pyparsing
   - rapidfuzz=2.2.0
   - pip:
     - pyinstaller
     - opencv-python==4.5.5.64
     - transitions
-    - mss=7.0.1
+    - mss==7.0.1
     - numpy
     - mouse
     - keyboard
